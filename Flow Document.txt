@@ -1,0 +1,22 @@
+How it Works:
+1️Twilio Reads the TwiML
+
+Twilio sees the <Stream> tag and starts streaming live audio to WebSocket (wss://ngrok-server/ws).
+
+The TwiML itself is just an instruction for Twilio; it does not get sent anywhere.
+
+2️Audio is Sent via WebSocket
+
+Twilio sends raw audio to WebSocket server in real-time.
+
+WebSocket server receives the audio and forwards it to Google's bidirectional API.
+
+3️Google Gemini Processes the Audio & Responds
+
+Google's bidirectional audio API processes the speech and returns a synthesized voice response.
+
+4 WebSocket Sends the Response Back to Twilio
+
+WebSocket receives Gemini’s audio and streams it back to Twilio.
+
+Twilio plays the audio to the caller in real-time.
