@@ -1,0 +1,11 @@
+{
+  "to_number": "+919783596594",
+  "candidate_name": "Lokugent",
+  "list_of_questions": [
+    "Tell me about yourself",
+    "Why are you interested in this specific role?",
+    "Why do you want to work for our company?",
+    "What do you consider your greatest strength?",
+    "What do you consider your biggest weakness?"
+  ]
+}

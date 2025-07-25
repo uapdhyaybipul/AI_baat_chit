@@ -1,0 +1,11 @@
+twilio
+fastapi
+uvicorn
+python-dotenv
+loguru
+google-generativeai
+pipecat
+pipecat-ai
+pipecat-ai[google]
+pipecat-ai[openai]
+onnxruntime==1.15.0

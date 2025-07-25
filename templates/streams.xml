@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+  <Say voice="woman">Please say Hello to continue this call</Say>
+  <Connect>
+    <Stream url="wss://2860-203-122-42-162.ngrok-free.app/ws"></Stream>
+  </Connect>
+  <Pause length="40"/>
+</Response>
